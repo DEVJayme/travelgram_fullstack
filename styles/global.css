@@ -16,7 +16,7 @@
     --font-family: "Poppins", sans-serif;
     --font: 16px/150% var(--font-family);
     --heading1: bold 32px/125% var(--font-family); 
-    --paragraph-md: 14px/175% var(--font-family);
+    --paragraph-md: 14px/170% var(--font-family);
     --paragraph-sm: 12px/170% var(--font-family);
 
 }
@@ -46,4 +46,16 @@ a:hover{
     padding-inline: 32px;
     max-width: 1280px;
     margin-inline: auto;
+    
 }
+
+ul{
+    list-style: none;
+}
+
+
+h1{
+    font: var(--heading1);
+    color: var(--text-color-primary);
+}
+

@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: row;
+    padding-block: 32px;
+    justify-content: space-between;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    height: 176px;
+    width: 592px;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+#profile img{
+    height: 176px;
+    width: 176px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#about p{
+    font: var(--paragraph-md);
+}
+
+#info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font: var(--paragraph-sm);
+}
+
+#info ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
